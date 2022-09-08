@@ -1,0 +1,289 @@
+
+.mainheading {
+    display: block;
+    min-height: 55vh;
+    color: white;
+    background-color:#759b2c;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 0% 100%);
+    transition: background-color 3s;
+}
+@media (max-width:800px){
+    .mainheading{
+        padding-top:100px ;min-height: 65vh;max-width: 100%;
+    }
+    .mainh {
+        font-size: 30px!important;line-height: 1.5em!important;}
+    .lasthead input, .lasthead textarea{width: 70%!important;}
+    li.subnav {width: 80%!important;margin: auto;}
+}
+.mainheading a{
+    color:#759b2c;
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    padding: 20px 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.heading {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    margin: 5% auto;
+}
+
+li.subnav {
+    text-align: center;
+    color: rgb(185, 185, 185);
+    border-bottom: 2px solid rgb(185, 185, 185);
+} 
+
+ul.navul span {
+    float: left;
+    text-align: left;
+}
+
+div.heading p:last-child {
+    font-size: 20px;
+}
+
+
+
+.mainh {
+    font-size: 50px;
+    color: #fff;
+    line-height: 80px;
+}
+
+div.navbar ul li a {
+    font-weight: 500;
+    color: #fff;
+}
+
+div.navbar ul li:hover {
+    border: 2px solid white;
+    border-radius: 10px;
+    max-height: 90%;
+    font-size: 14px;
+}
+div.navbar ul li :visited {
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+ul.nav1 li:first-child {
+    border-bottom: 2px solid #759b2c;
+}
+
+li.subnav a {
+    color: rgb(185, 185, 185);
+}
+
+div.subheadings {
+    padding: 5% 0;
+}
+div.subheadings em{
+    color: #759b2c;
+    font-style: normal;
+}
+
+
+div.subheadings p {
+    font-size: 25px;
+    padding-top: 8%;
+    font-weight: 500;
+}
+
+.subcon {
+    text-align: center;
+    padding: 2% 15%;
+}
+
+li img {
+    height: 24px;
+    width: 24px;
+}
+
+li.col-lg-6 {
+    margin: 10px 0px;
+    font-weight: 500;
+}
+
+ul {
+    list-style: none;
+}
+
+ul.check {
+    list-style: none;
+    margin-left: 15%;
+    font-size: 20px;
+}
+.check li h4{
+    color: #759b2c;
+}
+.check li i{
+    color: #759b2c;
+}
+.check a{
+    color: black;
+}
+.checkhead {
+    text-align: center;
+    margin: 3%;
+    padding-top: 3%;
+    font-weight: 700;
+    font-size: 30px;
+    color: #759b2c;
+}
+
+.checklist {
+    background-image: linear-gradient(0deg, #fff 3%, rgba(231, 227, 227, 0.57) 100%);
+}
+.freehead {
+    min-height: 60vh;
+    text-align: center;
+    padding: 10% 0;
+
+}
+
+.freehead h3 {
+    font-size: 30px;
+    display: block;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.freehead p {
+    font-size: 20px;
+    color: rgb(141, 141, 141);
+    display: block;
+    padding: 1%;
+}
+
+.freehead button {
+    padding: 0.5%;
+    font-size: 20px;
+}
+
+.freehead button.demo {
+    border: 2px solid #5c6f78;
+    background-color: #fff;
+    color: #5c6f78;
+}
+
+.freehead button.demo:hover {
+    background-color: #5c6f78;
+    color: #fff;
+}
+
+.lasthead {
+    min-height: 40vh;
+    text-align: center;
+    color: white;
+    background-color: #759b2c;
+    padding-bottom: 5%;
+    margin-top: 50px;
+}
+.lasthead h3 {
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 5% 10% 0 10%;
+    height: 20%;
+}
+
+.lasthead p {
+    display: block;
+    font-size: 20px;
+    padding: 1%;
+}
+.lasthead input, .lasthead textarea{
+    width: 30%;
+}
+
+hr.style12 {
+	height: 10px;
+    box-shadow: 0 10px 10px -10px #8c8b8b inset;
+    padding: 5% 25%;
+}
+
+footer {
+    min-height: 10vh;
+}
+
+footer span {
+    text-align: center;
+    height: 100%;
+    padding: 2%;
+}
+
+footer span a {
+    text-decoration: none;
+    color: rgb(185, 185, 185);
+}
+
+footer span a:hover {
+    color: rgb(148, 148, 148);
+    text-decoration: none;
+}
+
+div.lasthead button {
+    background-color: #759b2c;
+    border: 1.5px solid white;
+    color: white;
+    font-size: 20px;
+    padding: 1%;
+}
+
+div.lasthead button:hover {
+    background: white;
+    color: #759b2c;
+}
+.btn-primary {
+    color: white;
+    background-color: #759b2c;
+    border-color: #759b2c;
+}
+.careers h3{
+    text-align: center;
+    padding-top: 50px;
+}
+.careers button{
+    color: white;
+  background-color: #759b2c;
+  padding: 20px 50px;
+  margin: 20px 0;
+  border-radius: 5px;
+  }
+  .careers button:hover{
+      color: #759b2c;
+      background-color: white;
+      border: 1px solid #759b2c;	
+  }
+  .careers_image{
+      width: 100%;
+      text-align: center;
+  }
+  .joblist {
+      padding-top:80px ;
+  }
+  .joblist h4{
+      font-size: 20px;
+      color: #000;
+  }
+  .joblist p, .joblist i{
+      display: inline;
+      padding-bottom:25px ;
+  }
+  .joblist h5{
+      font-size: 28px;
+      color: #759b2c;
+  }
+  .joblist h2{
+      padding:30px 0;
+      margin-bottom: 50px;
+      font-size: 26px;
+      background-color: #759b2c;
+      color: white;
+  }
